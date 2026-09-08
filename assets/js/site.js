@@ -33,6 +33,24 @@
     el.textContent = new Date().getFullYear();
   });
 
+  /* ---------------- hero motif: rays echoing the corporate mark ---------------- */
+  (function () {
+    var rays = document.getElementById('rays');
+    if (!rays) return;
+    var out = '';
+    for (var a = -86; a <= 86; a += 4.3) {
+      var r = a * Math.PI / 180;
+      out += '<line x1="100" y1="100" x2="' + (100 + Math.sin(r) * 130).toFixed(2) +
+             '" y2="' + (100 - Math.cos(r) * 130).toFixed(2) + '" opacity="' +
+             (0.30 + 0.55 * (1 - Math.abs(a) / 90)).toFixed(2) + '"/>';
+    }
+    rays.innerHTML = out;
+    if (RM) {
+      var sweep = document.querySelector('.sweep');
+      if (sweep) sweep.style.animation = 'none';
+    }
+  })();
+
   /* ---------------- mark the current page in the menu ---------------- */
   (function () {
     var here = location.pathname.split('/').pop() || 'index.html';
@@ -70,9 +88,8 @@
   onScroll();
 
   if (toTop) {
-    toTop.addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
-    });
+    // instant, to match the anchor links — no animated page scrolling anywhere
+    toTop.addEventListener('click', function () { window.scrollTo(0, 0); });
   }
 
   /* ---------------- navigation: expandable panels ---------------- */
