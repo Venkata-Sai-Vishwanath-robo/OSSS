@@ -57,11 +57,26 @@ def main():
 
     for name, title, desc in PAGES:
         body = read(os.path.join("_bodies", name))
-        page = (header
+        banner = (
+            "<!--\n"
+            "  GENERATED FILE - DO NOT EDIT.\n"
+            "  Every edit here is overwritten the next time the site is built,\n"
+            "  including by the GitHub Pages workflow, so a change made here\n"
+            "  disappears from the live site without any error.\n"
+            "\n"
+            "  Edit _bodies/%s for this page's content,\n"
+            "  or _parts/header.html and _parts/footer.html for the menu and\n"
+            "  footer, then run: python build.py\n"
+            "-->\n" % name
+        )
+        head = (header
                 .replace("{{TITLE}}", title)
                 .replace("{{DESC}}", desc)
-                .replace("{{PAGE}}", "" if name == "index.html" else name)
-                + body + "\n" + footer)
+                .replace("{{PAGE}}", "" if name == "index.html" else name))
+        # the banner goes after the doctype, never before it, so that no
+        # browser is tempted to fall back to quirks mode
+        head = head.replace("<!DOCTYPE html>\n", "<!DOCTYPE html>\n" + banner, 1)
+        page = head + body + "\n" + footer
         with io.open(os.path.join(HERE, name), "w", encoding="utf-8", newline="\n") as fh:
             fh.write(page)
         print("built %-16s %6d bytes" % (name, len(page.encode("utf-8"))))

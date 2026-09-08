@@ -26,7 +26,14 @@ _bodies/*.html       the content of one page, between those two
 build.py             glues them together
 ```
 
-**Never edit the six page files at the top level by hand — `build.py` overwrites them.**
+> **Never edit `index.html`, `about.html`, `security.html`, `training.html`,
+> `projects.html` or `contact.html` directly — including through the GitHub web
+> editor.** Those six files are generated. The deploy workflow runs `build.py`
+> before publishing, so an edit made in one of them is overwritten on the way to
+> the live site: the commit looks correct in the repository, the deploy goes
+> green, and the change simply does not appear. Each generated file carries a
+> warning comment at the top saying the same thing.
+
 Edit the matching file in `_bodies/`, or `_parts/` for the menu and footer, then run:
 
 ```
