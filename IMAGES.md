@@ -2,7 +2,7 @@
 
 Every page currently shows dashed grey boxes where a photograph should go. Each box
 names the file it is waiting for and describes the shot. There are **36 photo slots
-plus 9 leadership portraits**, but you do not need all of them to launch — the
+plus 4 leadership portraits**, but you do not need all of them to launch — the
 "Start with these" list below covers the ones people actually see.
 
 ## How to drop a photo in
@@ -84,7 +84,7 @@ If you only have time for a handful, these carry the most weight:
 | `about-office.jpg` | 1000×750 | The Moula Ali office — building front with signage, or the team at the entrance. |
 | `about-engineers.jpg` | 1000×750 | Two engineers on a ladder aligning a camera, in OSSS uniform and safety gear. |
 
-**Leadership portraits.** Nine grey boxes marked "Photo portrait 600×720" sit beside the
+**Leadership portraits.** Four grey boxes marked "Photo portrait 600×720" sit beside the
 bios. Head-and-shoulders, plain background, same crop for everyone — a set that does not
 match looks worse than no photos at all. Save them as
 `assets/photos/team-<surname>.jpg` and replace each `<div class="av">…</div>` with
