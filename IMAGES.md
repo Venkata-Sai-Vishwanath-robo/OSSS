@@ -46,7 +46,7 @@ If you only have time for a handful, these carry the most weight:
 
 | File | Shot |
 | --- | --- |
-| `hero-control-room.jpg` | Front page hero. A live control room, or a station platform with cameras visible. |
+| ~~`hero-control-room.jpg`~~ | Front page hero. **Supplied — in place.** |
 | `about-office.jpg` | The Moula Ali office — building front with signage. |
 | `about-engineers.jpg` | Two engineers aligning a camera, in uniform and safety gear. |
 | `control-room.jpg` | Operator at a desk with a video wall behind. |
@@ -63,7 +63,7 @@ If you only have time for a handful, these carry the most weight:
 
 | File | Size | Shot |
 | --- | --- | --- |
-| `hero-control-room.jpg` | 1600×900 | Wide shot of a live control room, or a station platform with cameras visible. |
+| ~~`hero-control-room.jpg`~~ | 1600×900 | **In place.** Station platform with PTZ dome cameras on the canopy. |
 | `work-scr-secunderabad.jpg` | 1200×675 | Goods shed or MMTS platform with a camera pole in frame. |
 | `work-kgbv-schools.jpg` | 1200×675 | KGBV school building exterior, or a hostel corridor with a dome camera. |
 | `work-gmr-orr.jpg` | 1200×675 | Outer Ring Road gantry with cameras, taken from the shoulder. |
