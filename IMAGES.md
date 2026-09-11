@@ -71,6 +71,13 @@ the home page hero. If you add more, use PNGs with a transparent background at
 roughly the same height — the strip greys them out and restores the colour on hover,
 so mismatched heights show up immediately.
 
+## Certification logos
+
+The footer shows ISO 9001, ISO 14001, ISO 45001, NSIC and Udyam MSME, using the
+`assets/cert-*` files. The three ISO badges are drawn in-house, because ISO does not
+allow certified companies to use its own logo. If your certification body issued a
+mark for you to display, replace the matching SVG with it, keeping the same file name.
+
 ## Unused file in the repository
 
 `assets/photos/hero-control-room.jpg` is still committed but nothing references it.

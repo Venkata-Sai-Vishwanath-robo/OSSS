@@ -40,7 +40,7 @@ PAGES = [
 
     ("contact.html",
      "Contact us | Oriental Skills &amp; Safety Services, Hyderabad",
-     "Request a site survey. Head office at Moula Ali, Hyderabad, with teams across eight states."),
+     "Request a site survey. Headquartered at Moula Ali, Hyderabad, taking up projects across India."),
 ]
 
 HERE = os.path.dirname(os.path.abspath(__file__))

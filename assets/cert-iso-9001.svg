@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="ISO 9001">
+  <circle cx="60" cy="60" r="58" fill="#343580"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#fff" stroke-width="1.6" stroke-dasharray="2.4 3.2" opacity=".75"/>
+  <text x="60" y="55" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#fff" letter-spacing="1">ISO</text>
+  <text x="60" y="84" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#F0762F">9001</text>
+</svg>
