@@ -29,7 +29,7 @@
   setTheme(root.getAttribute('data-theme') || 'light', false);
 
   /* ---------------- year stamp ---------------- */
-  document.querySelectorAll('.yr').forEach(function (el) {
+  document.querySelectorAll('.this-year').forEach(function (el) {
     el.textContent = new Date().getFullYear();
   });
 
