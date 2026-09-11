@@ -36,7 +36,7 @@ PAGES = [
     ("projects.html",
      "Our work: railways, government and industry | OSSS",
      "CCTV and security systems in service for South Central Railway, South Eastern Railway, "
-     "the AP School Education Department, GMR and the Indian Air Force."),
+     "the AP School Education Department and GMR."),
 
     ("contact.html",
      "Contact us | Oriental Skills &amp; Safety Services, Hyderabad",

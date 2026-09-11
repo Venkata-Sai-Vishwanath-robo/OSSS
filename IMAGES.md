@@ -65,8 +65,8 @@ not match looks worse than the initials do. Save them as
 
 ## Client logos
 
-The five logos in `assets/` (Indian Railways, Government of Andhra Pradesh, GMR,
-Indian Air Force, BFSI Sector Skill Council) run in the "Delivering for" strip below
+The four logos in `assets/` (Indian Railways, Government of Andhra Pradesh, GMR,
+BFSI Sector Skill Council) run in the "Delivering for" strip below
 the home page hero. If you add more, use PNGs with a transparent background at
 roughly the same height — the strip greys them out and restores the colour on hover,
 so mismatched heights show up immediately.
